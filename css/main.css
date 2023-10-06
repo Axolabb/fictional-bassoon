@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    color: #ffffff;
+}
+body {
+    background-color: #181E34;
+    font-family: "Montserrat", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER--------------------------------*/
+.container_header {
+    height: 15vh;
+    display: flex;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    min-width: 50vh;
+    
+}
+.Logo {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.header_logo_block {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.header_list_block {
+    display: flex; 
+    align-items: center;
+}
+.header_list{
+    display: flex;
+    width: 50vh;
+    justify-content: space-evenly;
+}
+.auth {
+    color: #2766AE;
+    background-color: #ffffff;
+    width: 15vh;
+    height: 6vh;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.header_list_text {
+    cursor: pointer;
+}
+/* ----------------------------MAIN--------------------------------*/
+.container_main_all {
+    padding-top: 15vh;
+    background-size: cover;
+}
+.main_bg {
+    width: 100%;
+    min-height: 70%;
+    min-width: 90%;
+    position: absolute;
+    object-fit: contain;
+    
+}
+.main_h1 {
+    font-size: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.main_text_and_button {
+    padding: 10vh 30vh;
+    display: flex;
+}
+.main_text_block {
+    position: relative;
+    font-size: 2vh;
+    width: 55vh;
+    min-width: 35vh;
+}
+.main_text {
+    padding: 1vh;
+    line-height: 150%;
+}
+.main_button_block {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70vh;
+}
+.main_button {
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    width: 30vh;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+}
+.two {
+    border-radius: 100px;
+    background: linear-gradient(95deg, #00A4CC 6.7%, #2766AE 91.35%);
+
+}
